@@ -25,7 +25,7 @@
 
                 if (!int.TryParse(Console.ReadLine(), out select) || select < 1 || select > 3)
                 {
-                    Console.WriteLine("Invalid selection. Please enter 1, 2, or 3.");
+                    Console.WriteLine("Invalid selection. Please enter 1, 2, or 3");
                     continue;
                 }
 
